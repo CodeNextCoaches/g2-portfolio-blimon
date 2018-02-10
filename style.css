@@ -14,12 +14,25 @@ span {
 }
 
 .icon{
+  background-color: white;
   width: 30px;
-  height: 30px;
+  opacity: 0.85;
+  transition: opacity 0,5s
+}
+.icon:hover{
+  opacity:1.0
 }
 
-p{
-  background-color: #42cbf4;
-  margin: 0 auto;
-  width: 75%;
+
+.project-image {
+  margin: 0 10px;
+  width: 200px;
+  height: 200px;
+  opacity: 0.75;
+  transition: box-shadow 0.5s, opacity 0.5s;
+}
+
+.project-image:hover {
+  box-shadow: 0 0 5px 5px #555555;
+  opacity:1.0
 }
